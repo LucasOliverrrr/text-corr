@@ -1,7 +1,6 @@
 {
   "name": "text-corr",
   "version": "0.0.1",
-  "description": "",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
@@ -70,5 +69,11 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "description": ""
 }

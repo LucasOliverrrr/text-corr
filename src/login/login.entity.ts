@@ -15,6 +15,6 @@ export class Login {
     @Column({length: 40})
     nome: string;
 
-    @OneToMany(() => Filiacao, (filiacao) => filiacao.login)
-    filiacao: Filiacao[];
+    // @OneToMany(() => Filiacao, (filiacao) => filiacao.login)
+    // filiacao: Filiacao[];
 }

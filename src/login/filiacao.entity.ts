@@ -17,7 +17,7 @@ export class Filiacao {
     @Column({length: 2})
     uf: string;
 
-    @ManyToOne(() => Login, (Login) => Login.filiacao)
-    @JoinColumn({name:"id_login"})
-    login: Login;
+    // @ManyToOne(() => Login, (Login) => Login.filiacao)
+    // @JoinColumn({name:"id_login"})
+    // login: Login;
 }
